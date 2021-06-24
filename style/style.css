@@ -29,14 +29,22 @@
 
 /* -------featured-games--------- */
 
-/* .container-games{
-    width: calc( 100% - 15%);
-    margin: 0 auto;
- } */
 
 .game{
-    width: 100px;
-    height: 100px;
-    background-color: blueviolet;
+    min-height: 100px;
+    min-width: 150px;
     border-radius: 15px;
+    object-fit: cover;
+}
+
+#featured-games img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    object-fit: contain;
+}
+.game:hover{
+    border: 2px solid rgb(168, 168, 255);
 }
