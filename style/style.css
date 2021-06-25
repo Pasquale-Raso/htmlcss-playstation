@@ -29,7 +29,6 @@
 
 /* -------featured-games--------- */
 
-
 .game{
     min-height: 100px;
     min-width: 150px;
@@ -46,5 +45,52 @@
     object-fit: contain;
 }
 .game:hover{
-    border: 2px solid rgb(168, 168, 255);
+    border: 2px solid blue;
+}
+
+#ps5-accessories img{
+    height: 75%;
+    width: 100%;
+    border-radius: 15px;
+    justify-content:center;
+    display: flex;
+    object-fit: contain;
+}
+
+.accessories{
+    min-width: 70px;
+    object-fit: cover;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.accessories:hover{
+    opacity: 1;
+    border-bottom: 2px solid blue;
+}
+
+/* -------jambotron2--------- */
+
+.background-jambotron2{
+    background-image: url(..//img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    background-position:center;
+    background-position:top;
+    margin-top: 50px;
+}
+
+.takes{
+    width: 300px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.mb-10{
+    margin-top: 00px;
+}
+
+/* -------nuove-uscite-title--------- */
+
+#nuove-uscite-title{
+    background-color: rgb(31, 31, 31);
 }
