@@ -48,6 +48,8 @@
     border: 2px solid blue;
 }
 
+/* -------ps5-accessories--------- */
+
 #ps5-accessories img{
     height: 75%;
     width: 100%;
@@ -94,3 +96,38 @@
 #nuove-uscite-title{
     background-color: rgb(31, 31, 31);
 }
+
+/* -------new-games--------- */
+
+#new-games{
+    background-color: rgb(31, 31, 31);
+}
+
+.box{
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+#new-games img{
+    height: 90%;
+    width: 100%;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    object-fit: contain;
+    opacity: 0.6;
+}
+#new-games img:hover{
+    opacity: 1;
+}
+
+/* -------PS4-title--------- */
+
+
+
+
+/* -------card--------- */
+
+
+
+/* -------PS-plus--------- */
