@@ -34,6 +34,7 @@
     min-width: 150px;
     border-radius: 15px;
     object-fit: cover;
+    transition: 1s;
 }
 
 #featured-games img{
@@ -46,6 +47,7 @@
 }
 .game:hover{
     border: 2px solid blue;
+    transform:translateY(-10%);
 }
 
 /* -------ps5-accessories--------- */
@@ -79,7 +81,6 @@
     width: auto;
     background-position:center;
     background-position:top;
-    margin-top: 50px;
 }
 
 .takes{
@@ -135,14 +136,13 @@
 .background-jambotron3{
     background-color: rgb(190, 188, 187);
 }
-.pt-10{
-    padding-top: 130px;
-}
+
 .logo-paystation-plu {
     max-width: 300px;
 }
 .ps-plus-april-monthly{
-    max-width: 600px;
+    max-width: 100%;
+    height: auto;
 }
 
 /* -------box-store--------- */
@@ -168,14 +168,14 @@
 .background-jambotron4{
     background-color: rgb(22, 28, 59);
 }
-.pt-10{
-    padding-top: 130px;
-}
+
 .logo-new {
-    max-width: 300px;
+    max-width: 100%;
 }
+
 .ps-plus-april-monthly{
-    max-width: 600px;
+    max-width: 500px;
+    height: auto;
 }
 
 /* -------social--------- */
@@ -191,4 +191,38 @@
 }
 #social img:hover{
     opacity: 0.6;
+}
+
+/* -------footer--------- */
+
+footer{
+    background-color: rgb(0, 67, 156);
+}
+.globe{
+    width: 30px;
+    height: 30px;
+}
+.Country{
+    color: white;
+    vertical-align: middle;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.list ul, a{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+
+.sie{
+    width: 100px;
+    height:100px;
+}
+
+.bolk1{
+    display: flex;
+    flex-wrap: wrap;
 }
