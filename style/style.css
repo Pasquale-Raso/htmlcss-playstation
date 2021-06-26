@@ -1,17 +1,40 @@
 /* -------header--------- */
 
 .sony{
-    
     height: 50px;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
 }
 .nav{
-    
-    height: 70px;
-    background-color: rgb(86, 216, 216);
+    background-color: rgb(255, 255, 255);
+}
+.header{
+    position: fixed;
+    z-index: 1;
+    box-shadow: 2px 2px 3px #dedede;
+}
+
+.sony{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items:center; 
+}
+
+.logo-sony{
+    width: 100px;
+    height: 100px;
+}
+
+.lens{
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
 }
 
 /* -------jambotron--------- */
+#jambotron{
+    padding-top: 120px;
+}
 
 .background-jambotron{
     background-image: url(..//img/jumbo-bg.png);
@@ -20,6 +43,7 @@
     background-position:center;
     background-position:top;
 }
+
 .pt-10{
     padding-top: 300px;
 }
@@ -50,6 +74,17 @@
     transform:translateY(-10%);
 }
 
+/* -------text-blue--------- */
+
+.text-blue{
+    color: blue;
+    margin-bottom: 0px;
+}
+
+.text-grey{
+    color: grey;
+}
+
 /* -------ps5-accessories--------- */
 
 #ps5-accessories img{
@@ -75,6 +110,10 @@
 
 /* -------jambotron2--------- */
 
+#jambotron2{
+ margin-top: 30px;
+}
+
 .background-jambotron2{
     background-image: url(..//img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
@@ -87,9 +126,6 @@
     width: 300px;
     padding-bottom: 50px;
     padding-top: 50px;
-}
-.mb-10{
-    margin-top: 00px;
 }
 
 /* -------nuove-uscite-title--------- */
@@ -122,14 +158,6 @@
     opacity: 1;
 }
 
-/* -------PS4-title--------- */
-
-
-
-
-/* -------card--------- */
-
-
 
 /* -------jambotron3--------- */
 
@@ -143,6 +171,10 @@
 .ps-plus-april-monthly{
     max-width: 100%;
     height: auto;
+}
+.bot{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: blue;
 }
 
 /* -------box-store--------- */
@@ -176,6 +208,11 @@
 .ps-plus-april-monthly{
     max-width: 500px;
     height: auto;
+}
+
+.bot2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 /* -------social--------- */
