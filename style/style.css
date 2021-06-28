@@ -167,7 +167,7 @@
     max-width: 300px;
 }
 .ps-plus-april-monthly{
-    max-width: 400px;
+    max-width: 100%;
     height: auto;
 }
 .bot{
@@ -209,7 +209,7 @@
 }
 
 .ps-plus-april-monthly{
-    max-width: 400px;
+    max-width: 500px;
     height: auto;
 }
 
