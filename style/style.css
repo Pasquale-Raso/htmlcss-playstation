@@ -39,8 +39,6 @@
 .background-jambotron{
     background-image: url(..//img/jumbo-bg.png);
     background-repeat: no-repeat;
-    width: auto;
-    background-position:center;
     background-position:top;
 }
 
@@ -250,12 +248,8 @@ footer{
     color: white;
     vertical-align: middle;
 }
-.list{
-    display: flex;
-    justify-content: space-around;
-    
-}
-.list ul, a{
+
+.list li, a{
     list-style-type: none;
     color: white;
     text-decoration: none;
@@ -266,7 +260,4 @@ footer{
     height:100px;
 }
 
-.bolk1{
-    display: flex;
-    flex-wrap: wrap;
-}
+
